@@ -1,0 +1,4 @@
+Flask==2.2.2
+netaddr==0.8.0
+netifaces==0.10.9
+scapy==2.4.4

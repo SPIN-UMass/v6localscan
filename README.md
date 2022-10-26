@@ -2,12 +2,12 @@
 
 1. Install dependencies
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 2. Run the app
 ```
-sudo python scan.py
+sudo python3 scan.py
 ```
 
 3. Open browser

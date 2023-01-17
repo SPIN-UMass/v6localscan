@@ -9,7 +9,7 @@ import os
 
 
 def get_prefixes(pfxs):
-    fname = './internal/pfxs.json'
+    fname = './pfxs.json'
     if not os.path.isfile(fname):
         with open(fname, mode='w') as f:
             f.write(json.dumps(pfxs, indent=2))
@@ -19,7 +19,7 @@ def get_prefixes(pfxs):
     return pfxs
 
 def update_prefix_file(pfxs):
-    fname = './internal/pfxs.json'
+    fname = './pfxs.json'
     with open(fname, mode='w') as f:
         f.write(json.dumps(pfxs, indent=2))
 

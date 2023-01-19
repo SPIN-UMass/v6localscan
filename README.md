@@ -14,3 +14,6 @@ sudo python3 scan.py
 ```
 http://localhost:7279
 ```
+
+#### OR
+Download the pre-compiled binaries from the /builds folder to run.
